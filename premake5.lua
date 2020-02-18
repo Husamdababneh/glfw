@@ -20,7 +20,6 @@ project "GLFW"
     
 	filter "system:windows"
         buildoptions { "-std=c11", "-lgdi32" }
-        systemversion "10.0.17134.0"
         staticruntime "On"
         
         files
